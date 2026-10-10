@@ -84,7 +84,7 @@ Với từng quân địch:
 Mỗi bước là một lần nhắn cho AI. Xong bước nào thì chạy thử, rồi commit Git trước khi sang bước tiếp.
 
 **Giai đoạn 1: bản chơi được**
-- [ ] **Bước 1:** Tạo project 1080x1920 portrait, bật emulate touch, một scene Battle trống.
+- [x] **Bước 1:** Tạo project 1080x1920 portrait, bật emulate touch, một scene Battle trống.
 - [ ] **Bước 2:** Vẽ lưới 8x8 (ô 128 px), có hàm đổi qua lại giữa toạ độ ô và toạ độ pixel.
 - [ ] **Bước 3:** Đặt 3 quân xanh và 3 quân đỏ lên đúng ô xuất phát (hình khối đơn giản, có thanh máu).
 - [ ] **Bước 4:** Chạm quân xanh để chọn: hiện các ô đi được (không đi xuyên quân khác).
