@@ -86,8 +86,8 @@ Mỗi bước là một lần nhắn cho AI. Xong bước nào thì chạy thử
 **Giai đoạn 1: bản chơi được**
 - [x] **Bước 1:** Tạo project 1080x1920 portrait, bật emulate touch, một scene Battle trống.
 - [x] **Bước 2:** Vẽ lưới 8x8 (ô 128 px), có hàm đổi qua lại giữa toạ độ ô và toạ độ pixel.
-- [ ] **Bước 3:** Đặt 3 quân xanh và 3 quân đỏ lên đúng ô xuất phát (hình khối đơn giản, có thanh máu).
-- [ ] **Bước 4:** Chạm quân xanh để chọn: hiện các ô đi được (không đi xuyên quân khác).
+- [x] **Bước 3:** Đặt 3 quân xanh và 3 quân đỏ lên đúng ô xuất phát (hình khối đơn giản, có thanh máu).
+- [x] **Bước 4:** Chạm quân xanh để chọn: hiện các ô đi được (không đi xuyên quân khác).
 - [ ] **Bước 5:** Chạm ô sáng để di chuyển quân tới đó.
 - [ ] **Bước 6:** Sau khi đi: hiện địch trong tầm đánh, chạm để tấn công, trừ máu, quân hết máu thì biến mất. Thêm nút "Chờ".
 - [ ] **Bước 7:** Mỗi quân chỉ hành động một lần mỗi lượt. Nút "Kết thúc lượt", chuyển sang lượt địch.
