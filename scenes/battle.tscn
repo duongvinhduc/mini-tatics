@@ -1,6 +1,40 @@
-[gd_scene load_steps=2 format=3]
+[gd_scene load_steps=3 format=3 uid="uid://debhvq0ygalk3"]
 
-[ext_resource type="Script" path="res://scripts/battle.gd" id="1_battle"]
+[ext_resource type="Script" uid="uid://b4xs4mje4ainp" path="res://scripts/battle.gd" id="1_battle"]
+[ext_resource type="Script" path="res://scripts/unit.gd" id="2_unit"]
 
-[node name="Battle" type="Node2D"]
+[node name="Battle" type="Node2D" unique_id=1836304881]
 script = ExtResource("1_battle")
+
+[node name="Player1" type="Node2D" parent="."]
+position = Vector2(220, 1484)
+script = ExtResource("2_unit")
+
+[node name="Player2" type="Node2D" parent="."]
+position = Vector2(540, 1484)
+script = ExtResource("2_unit")
+
+[node name="Player3" type="Node2D" parent="."]
+position = Vector2(860, 1484)
+script = ExtResource("2_unit")
+
+[node name="Enemy1" type="Node2D" parent="."]
+position = Vector2(220, 596)
+script = ExtResource("2_unit")
+is_player = false
+max_hp = 12
+hp = 12
+
+[node name="Enemy2" type="Node2D" parent="."]
+position = Vector2(540, 596)
+script = ExtResource("2_unit")
+is_player = false
+max_hp = 12
+hp = 12
+
+[node name="Enemy3" type="Node2D" parent="."]
+position = Vector2(860, 596)
+script = ExtResource("2_unit")
+is_player = false
+max_hp = 12
+hp = 12
